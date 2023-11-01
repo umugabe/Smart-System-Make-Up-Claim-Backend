@@ -1,8 +1,8 @@
-const Claim = require('../models/claim');
+// const Claim = require('../models/claim');
 const NotificationModel = require('../models/notification')
 const { StatusCodes } = require('http-status-codes');
 const { BadRequestError } = require('../errors/index');
-const sendEmail = require('../utils/email/sendEmail');
+// const sendEmail = require('../utils/email/sendEmail');
 const multer= require('multer');
 const SENDEMAIL = require('../utils/SendEmail');
 
